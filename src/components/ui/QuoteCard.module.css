@@ -42,21 +42,14 @@
     position: relative;
   }
   .quote_container .quote_box .quote_text:before, .quote_container .quote_box .quote_text:after {
-    position: absolute;
-    color: #d8d9cf;
-    font-size: 2.4rem;
-    width: 2rem;
-    height: 2rem;
+    width: 0rem;
+    height: 0rem;
   }
   .quote_container .quote_box .quote_text:before {
-    content: "“";
-    top: -0.5rem;
-    left: 2rem;
+    content: "";
   }
   .quote_container .quote_box .quote_text:after {
-    content: "”";
-    bottom: -0.5rem;
-    right: 2rem;
+    content: "";
   }
   .quote_container .credit_box {
     margin: 1rem auto 0;

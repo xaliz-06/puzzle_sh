@@ -55,23 +55,16 @@
 
         &:before,
         &:after {
-          position: absolute;
-          color: $color-grey;
-          font-size: $font-size-4;
-          width: 2rem;
-          height: 2rem;
+          width: 0rem;
+          height: 0rem;
         }
 
         &:before {
-          content: '“';
-          top: -0.5rem;
-          left: 2rem;
+          content: '';
         }
 
         &:after {
-          content: '”';
-          bottom: -0.5rem;
-          right: 2rem;
+          content: '';
         }
       }
     }
@@ -79,9 +72,6 @@
     .credit_box {
       margin: $space-3 auto 0;
       width: 80%;
-
-      .quote_credit {
-      }
     }
   }
 }

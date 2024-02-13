@@ -101,4 +101,76 @@
 
 .special {
   color: #86a7fc;
+}
+
+@media screen and (max-width: 428px) {
+  .hunt_page {
+    margin-top: 7rem;
+  }
+  .hunt_page .hunt_container {
+    width: 90%;
+    margin: 1.3rem auto;
+  }
+  .hunt_page .hunt_container .hunt_details {
+    margin-top: 1.3rem;
+    padding: 1.3rem 1rem;
+  }
+  .hunt_page .hunt_container .hunt_details h3 {
+    font-size: 1.8rem;
+  }
+  .hunt_page .hunt_container .hunt_details h5 {
+    font-size: 1rem;
+  }
+  .hunt_page .hunt_container .hunt_details p {
+    margin-top: 1.3rem;
+    color: #86a7fc;
+    font-size: 1.4rem;
+  }
+  .hunt_page .hunt_container form .form_section {
+    padding: 1.8rem 1.3rem;
+  }
+  .hunt_page .hunt_container form .form_section label {
+    font-size: 1.8rem;
+  }
+  .hunt_page .hunt_container form .form_section label input[type=text] {
+    margin: 0.3rem 0;
+    width: 100%;
+    padding: 0.3rem;
+    border: 2px solid #86a7fc;
+    font-size: 1.4rem;
+  }
+  .hunt_page .hunt_container form .form_section label input[type=text]:focus {
+    outline: none;
+    border: 2px solid #86a7fc;
+    box-shadow: 0 0 15px rgba(252, 103, 54, 0.9);
+  }
+  .hunt_page .hunt_container form button {
+    margin: 0.7rem 1rem;
+    font-family: inherit;
+    font-size: 1.8rem;
+    color: #fff;
+    background-color: #474f7a;
+    padding: 0.7rem 2.4rem;
+  }
+  .next_section {
+    margin: 1.3rem auto;
+    padding-top: 1.3rem;
+  }
+  .next_section .next_container {
+    padding: 0.3rem;
+  }
+  .next_section .next_container h4 {
+    font-size: 1.4rem;
+  }
+  .link {
+    font-family: inherit;
+    padding: 0.7rem 0.7rem;
+    font-size: 1rem;
+    color: #fff;
+    transition: background-color 0.3s ease-in;
+    text-decoration: none;
+  }
+  .link:hover {
+    text-decoration: underline;
+  }
 }/*# sourceMappingURL=Hunt.module.css.map */

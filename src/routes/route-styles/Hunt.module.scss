@@ -118,3 +118,89 @@
 .special {
   color: $color-sky-blue;
 }
+
+@media screen and (max-width: 428px) {
+  .hunt_page {
+    margin-top: 7rem;
+    .hunt_container {
+      width: 90%;
+      margin: $space-4 auto;
+
+      .hunt_details {
+        margin-top: $space-4;
+        padding: $space-4 $space-3;
+
+        h3 {
+          font-size: $font-size-3;
+        }
+
+        h5 {
+          font-size: $font-size-1;
+        }
+
+        p {
+          margin-top: $space-4;
+          color: $color-sky-blue;
+          font-size: $font-size-2;
+        }
+      }
+
+      form {
+        .form_section {
+          padding: $space-5 $space-4;
+          label {
+            font-size: $font-size-3;
+
+            input[type='text'] {
+              margin: $space-1 0;
+              width: 100%;
+              padding: $space-1;
+              border: 2px solid $color-sky-blue;
+              font-size: $font-size-2;
+
+              &:focus {
+                outline: none;
+                border: 2px solid $color-sky-blue;
+                box-shadow: 0 0 15px rgba($color-orange, 0.9);
+              }
+            }
+          }
+        }
+        button {
+          margin: $space-2 $space-3;
+          font-family: inherit;
+          font-size: $font-size-3;
+          color: $color-white;
+          background-color: $color-light-blue;
+          padding: $btn-padding-tb $btn-padding-lr;
+        }
+      }
+    }
+  }
+
+  .next_section {
+    margin: $space-4 auto;
+    padding-top: $space-4;
+
+    .next_container {
+      padding: $space-1;
+
+      h4 {
+        font-size: $font-size-2;
+      }
+    }
+  }
+
+  .link {
+    font-family: inherit;
+    padding: $space-2 $space-2;
+    font-size: $font-size-1;
+    color: $color-white;
+    transition: $transition-1;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
