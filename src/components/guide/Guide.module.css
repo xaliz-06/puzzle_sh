@@ -18,6 +18,9 @@
   padding: 0.3rem 0 1rem;
   font-size: 1.4rem;
 }
+.guide_container .guide_box .list_text .special {
+  color: #86a7fc;
+}
 
 @media screen and (max-width: 428px) {
   .guide_container {

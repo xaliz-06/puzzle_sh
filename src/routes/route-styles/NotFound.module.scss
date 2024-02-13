@@ -1,38 +1,32 @@
 @import '../../styles/variables';
 
 .not_found_page {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
+  margin-top: $space-6;
+  padding-top: $space-4;
   .not_found_container {
     width: 90%;
-    margin: $space-2 auto;
-    padding: $space-2;
+    margin: $space-6 auto;
 
     .not_found_details {
-      text-align: center;
-      padding: $space-2 $space-3;
+      text-align: left;
+      padding: $space-3 $space-4;
       display: flex;
       flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      gap: 0.5rem;
+      gap: 1rem;
 
       h2 {
         font-size: $font-size-4;
       }
 
       .watson_img {
-        width: 500px;
+        width: 350px;
         margin: $space-2 auto;
       }
 
       .btn_container {
         display: flex;
         flex-direction: row;
+        justify-content: center;
         gap: $space-3;
       }
     }
@@ -41,6 +35,7 @@
 
 @media screen and (max-width: 428px) {
   .not_found_page {
+    margin-top: 7rem;
     .not_found_container {
       width: 90%;
       margin: $space-2 auto;

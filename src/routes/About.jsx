@@ -23,7 +23,7 @@ const members = [
       'https://www.instagram.com/stunner_creature?igsh=MWJrbmV5cWZvbmE0MA',
     linkedin_link:
       'https://www.linkedin.com/in/soumen-das-64469b281?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
-    twitter_link: '',
+    twitter_link: '/dead-end',
     img: soumen,
   },
   {
@@ -32,7 +32,7 @@ const members = [
     ig_link: 'https://www.instagram.com/swadhin_8_8?igsh=ZndzbzN0emR5eGFq',
     linkedin_link:
       'https://www.linkedin.com/in/swadhin-kumar-chakra-a39832250/',
-    twitter_link: '',
+    twitter_link: '/dead-end',
     img: swadhin,
   },
   {
@@ -67,7 +67,7 @@ const members = [
   {
     id: 6,
     name: 'Shubham Nayak',
-    ig_link: 'https://www.instagram.com/asteri_x?igsh=MWYzcGY2dGZiaWNoeQ==',
+    ig_link: 'https://www.instagram.com/_asteri_x_/',
     linkedin_link:
       'https://www.linkedin.com/in/shubhamnayak014?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
     twitter_link:
