@@ -192,15 +192,7 @@
   }
 
   .link {
-    font-family: inherit;
     padding: $space-2 $space-2;
     font-size: $font-size-1;
-    color: $color-white;
-    transition: $transition-1;
-    text-decoration: none;
-
-    &:hover {
-      text-decoration: underline;
-    }
   }
 }

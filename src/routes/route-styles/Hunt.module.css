@@ -163,14 +163,7 @@
     font-size: 1.4rem;
   }
   .link {
-    font-family: inherit;
     padding: 0.7rem 0.7rem;
     font-size: 1rem;
-    color: #fff;
-    transition: background-color 0.3s ease-in;
-    text-decoration: none;
-  }
-  .link:hover {
-    text-decoration: underline;
   }
 }/*# sourceMappingURL=Hunt.module.css.map */

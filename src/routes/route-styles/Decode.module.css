@@ -119,4 +119,85 @@ form button:active {
 }
 .next_section .next_container h4 {
   font-size: 1.4rem;
+}
+
+@media screen and (max-width: 428px) {
+  .decode_page {
+    margin-top: 7rem;
+  }
+  .decode_page .decode_container {
+    width: 90%;
+    margin: 1.3rem auto;
+  }
+  .decode_page .decode_container .clue_details {
+    margin-top: 1.3rem;
+    padding: 1.3rem 1rem;
+  }
+  .decode_page .decode_container .clue_details h3 {
+    font-size: 1.8rem;
+  }
+  .decode_page .decode_container .clue_details h5 {
+    font-size: 1rem;
+  }
+  .decode_page .decode_container .clue_details p {
+    margin-top: 1rem;
+    color: #86a7fc;
+    font-size: 1.4rem;
+  }
+  form .form_section {
+    padding: 1.8rem 1.3rem;
+  }
+  form .form_section label {
+    font-size: 1.8rem;
+  }
+  form .form_section label input[type=text] {
+    margin: 0.3rem 0;
+    width: 100%;
+    padding: 0.3rem;
+    border: 2px solid #86a7fc;
+    font-size: 1.4rem;
+  }
+  form .form_section label input[type=text]:focus {
+    outline: none;
+    border: 2px solid #86a7fc;
+    box-shadow: 0 0 15px rgba(252, 103, 54, 0.9);
+  }
+  form button {
+    margin: 0.7rem 1rem;
+    font-family: inherit;
+    font-size: 1.8rem;
+    color: #fff;
+    background-color: #474f7a;
+    padding: 0.7rem 2.4rem;
+  }
+  .link {
+    padding: 0.7rem 0.7rem;
+    font-size: 1rem;
+  }
+  .gallery_container .img_list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+  .gallery_container .img_list .img_list_item {
+    list-style: none;
+    transition: transform 0.9s ease;
+  }
+  .gallery_container .img_list .img_list_item .gallery_img {
+    width: 150px;
+    height: 200px;
+  }
+  .gallery_container .img_list .img_list_item:hover {
+    transform: scale(1.1);
+  }
+  .next_section {
+    margin: 1.3rem auto;
+    padding-top: 1.3rem;
+  }
+  .next_section .next_container {
+    padding: 0.3rem;
+  }
+  .next_section .next_container h4 {
+    font-size: 1.4rem;
+  }
 }/*# sourceMappingURL=Decode.module.css.map */

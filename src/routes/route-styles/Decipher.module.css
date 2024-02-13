@@ -44,4 +44,38 @@
 }
 .next_section .next_container h4 {
   font-size: 1.4rem;
+}
+
+@media screen and (max-width: 428px) {
+  .decipher_page {
+    margin-top: 7rem;
+  }
+  .decipher_page .decipher_container {
+    width: 90%;
+    margin: 1.3rem auto;
+  }
+  .decipher_page .decipher_container .clue_details {
+    margin-top: 1.3rem;
+    padding: 1.3rem 1rem;
+  }
+  .decipher_page .decipher_container .clue_details h3 {
+    font-size: 1.8rem;
+  }
+  .decipher_page .decipher_container .clue_details h5 {
+    font-size: 1rem;
+  }
+  .decipher_page .decipher_container .clue_details .cipher_img {
+    width: 150px;
+    margin: 1.3rem auto;
+  }
+  .next_section {
+    margin: 1.3rem auto;
+    padding-top: 1.3rem;
+  }
+  .next_section .next_container {
+    padding: 0.3rem;
+  }
+  .next_section .next_container h4 {
+    font-size: 1.4rem;
+  }
 }/*# sourceMappingURL=Decipher.module.css.map */
