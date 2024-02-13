@@ -1,6 +1,6 @@
 .not_found_page {
-  margin-top: 3rem;
-  padding-top: 1.3rem;
+  min-height: 100vh;
+  text-align: center;
 }
 .not_found_page .not_found_container {
   width: 90%;
@@ -11,6 +11,8 @@
   padding: 1rem 1.3rem;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   gap: 1rem;
 }
 .not_found_page .not_found_container .not_found_details h2 {
