@@ -3,13 +3,15 @@ import Card from '../components/ui/Card';
 import Hr from '../components/ui/Hr';
 import QuoteCard from '../components/ui/QuoteCard';
 
+import fall_gif from '../assets/images/reichenbach_gif.gif';
+
 import styles from './route-styles/FinalProblem.module.css';
+
 import { useNavigate } from 'react-router-dom';
 import Hint from '../components/ui/Hint';
 import { Link } from 'react-router-dom';
 
 let url;
-let missMeUrl;
 
 const FinalProblem = () => {
   const [inputValue, setInputValue] = useState('');
@@ -23,9 +25,10 @@ const FinalProblem = () => {
 
   const handleGo = () => {
     let enterredValue = inputValue.toLowerCase();
-    if (enterredValue === 'sidney') {
+    if (enterredValue === 'reichenbach') {
       setIsCorrect(true);
-      url = '/decipher';
+      url =
+        'https://drive.google.com/drive/u/0/folders/1vcyTa4cHX1lW6pmzEbSNF_81FZVDk8iF?q=parent:1vcyTa4cHX1lW6pmzEbSNF_81FZVDk8iF';
     } else {
       setIsCorrect(false);
       url = '/check';
@@ -85,9 +88,9 @@ const FinalProblem = () => {
             <h5>
               Given below is a <span className={styles.special}>binary</span>{' '}
               stream. There is a message encoded. Find out the message and enter
-              it in the box below.
+              it in the box below (ALL CAPS).
             </h5>
-            <p>1101010100101001010101010</p>
+            <p>010 0 00 1010 0000 0 10 1000 01 1010 0000</p>
             <h5>
               {' '}
               Solve <span className={styles.special}>The Final Problem</span>,
@@ -146,6 +149,7 @@ const FinalProblem = () => {
               <div className={styles.check_container}>
                 <div className={styles.check_box}>
                   {!isCorrect ? 'WRONG ❌' : 'YOU GOT IT 🔥'}
+                  {!isCorrect && <img src={fall_gif} alt="fall_gif" />}
                 </div>
               </div>
             )}

@@ -69,7 +69,7 @@ const Decode = () => {
   };
 
   const handleNext = () => {
-    navigate('/decipher');
+    navigate('/final-problem');
   };
   return (
     <div className={styles.decode_page}>

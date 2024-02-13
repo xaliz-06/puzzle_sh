@@ -9,8 +9,10 @@ import sounak from '../assets/images/members/sounak_saha.jpg';
 import vaashkar from '../assets/images/members/vaashkar_paul.jpg';
 import shubham from '../assets/images/members/shubham_nayak.jpg';
 import naitik from '../assets/images/members/naitik_nahta.jpg';
-import sritam from '../assets/images/members/sai_sritam_sarangi.jpg';
+import sritam from '../assets/images/members/sai_sritam_sarangi.png';
 import swadhin_sarangi from '../assets/images/members/swadhin_sarangi.jpg';
+import boibhav from '../assets/images/members/boibhav_chakraborty.jpg';
+
 import Box from '../components/ui/Box';
 
 const members = [
@@ -82,6 +84,14 @@ const members = [
   },
   {
     id: 8,
+    name: 'Boibhav Chakraborty',
+    ig_link: 'https://www.instagram.com/buffering_humor?igsh=aGhmdm96NWc2NnZz',
+    linkedin_link: 'https://www.linkedin.com/in/boibhav-chakraborty-4b2461245/',
+    twitter_link: 'https://x.com/BoibhavC?t=ZEjSG2lLpezFBGXF2EU02g&s=08',
+    img: boibhav,
+  },
+  {
+    id: 9,
     name: 'Swadhin Sarangi',
     ig_link:
       'https://www.instagram.com/acassianswadhin10?igsh=NnRlZm84MHZnc3N2',

@@ -16,13 +16,15 @@ import miss_me from '../assets/images/sherlocked-miss-me.gif';
 import techroyal_logo from '../assets/images/techroyal_logo.png';
 import watson_no from '../assets/images/watson_no.gif';
 import wrong_gif from '../assets/images/wrong_gif.gif';
+import fall_gif from '../assets/images/reichenbach_gif.gif';
 import naitik_nahta from '../assets/images/members/naitik_nahta.jpg';
-import sai_sritam_sarangi from '../assets/images/members/sai_sritam_sarangi.jpg';
+import sai_sritam_sarangi from '../assets/images/members/sai_sritam_sarangi.png';
 import sounak_saha from '../assets/images/members/sounak_saha.jpg';
 import shubham_nayak from '../assets/images/members/shubham_nayak.jpg';
 import soumen_das from '../assets/images/members/soumen_das.jpg';
 import swadhin_chakra from '../assets/images/members/swadhin_chakra.jpg';
 import vaashkar_paul from '../assets/images/members/vaashkar_paul.jpg';
+import boibhav from '../assets/images/members/boibhav_chakraborty.jpg';
 
 import styles from '../styles/ImagePreloader.module.css';
 
@@ -42,6 +44,7 @@ const imageUrls = [
   techroyal_logo,
   watson_no,
   wrong_gif,
+  fall_gif,
   naitik_nahta,
   sai_sritam_sarangi,
   soumen_das,
@@ -49,6 +52,7 @@ const imageUrls = [
   shubham_nayak,
   swadhin_chakra,
   sounak_saha,
+  boibhav,
 ];
 
 const ImagePreloader = ({ children }) => {

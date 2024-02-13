@@ -91,6 +91,14 @@ form button:active {
   font-size: 2.4rem;
   font-family: inherit;
   color: #fc6736;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.check_container .check_box img {
+  width: 400px;
 }
 
 .go_to {
@@ -173,6 +181,9 @@ form button:active {
   .check_container .check_box {
     font-size: 1.8rem;
     text-align: center;
+  }
+  .check_container .check_box img {
+    width: 200px;
   }
   .go_to {
     margin: 1.3rem auto 0.7rem;

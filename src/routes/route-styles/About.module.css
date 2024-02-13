@@ -13,6 +13,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 1.3rem;
+  place-items: center;
 }
 .about_page .about_container .member_lists .members_container .members_list li {
   list-style: none;
@@ -32,6 +33,7 @@
     display: grid;
     grid-template-columns: 1fr;
     gap: 0.7rem;
+    place-items: center;
   }
   .about_page .about_container .member_lists .members_container .members_list li {
     list-style: none;

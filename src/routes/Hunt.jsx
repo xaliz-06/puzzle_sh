@@ -19,7 +19,8 @@ const Hunt = () => {
   const handleGo = () => {
     let enterredValue = inputValue.toLowerCase();
     if (enterredValue === 'conan') {
-      url = 'about';
+      url =
+        'https://drive.google.com/drive/folders/1zmpQ_ZQbE-X1k46RjkD660qAijTJHkAu';
     } else {
       url = '/check';
     }

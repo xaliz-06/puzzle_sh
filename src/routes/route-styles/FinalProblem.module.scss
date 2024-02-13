@@ -103,6 +103,14 @@ form {
     font-size: $font-size-4;
     font-family: inherit;
     color: $color-orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: $space-3;
+    img {
+      width: 400px;
+    }
   }
 }
 
@@ -197,6 +205,10 @@ form {
     .check_box {
       font-size: $font-size-3;
       text-align: center;
+
+      img {
+        width: 200px;
+      }
     }
   }
 
