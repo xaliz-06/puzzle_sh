@@ -1,0 +1,44 @@
+@import '../../styles/variables';
+
+.quote_container {
+  margin: $space-5 auto;
+  color: $color-white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  .quote_box {
+    .quote_text {
+      font-size: $font-size-4;
+      position: relative;
+
+      &:before,
+      &:after {
+        position: absolute;
+        color: $color-grey;
+        font-size: $font-size-6;
+        width: 4rem;
+        height: 4rem;
+      }
+
+      &:before {
+        content: '“';
+        top: -1.5rem;
+        left: -1.5rem;
+      }
+
+      &:after {
+        content: '”';
+        bottom: -2.5rem;
+        right: -1.5rem;
+      }
+    }
+  }
+
+  .credit_box {
+    margin-top: $space-4;
+
+    .quote_credit {
+    }
+  }
+}

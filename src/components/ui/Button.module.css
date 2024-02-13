@@ -1,0 +1,28 @@
+.btn {
+  width: 100%;
+  padding: 0.7rem 2.4rem;
+  font: inherit;
+  background-color: #474f7a;
+  color: #fff;
+  font-size: 1.4rem;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease-in;
+  box-shadow: 0 5px #1f2544;
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: #030637;
+}
+.btn:active {
+  background-color: #030637;
+  transform: translateY(5px);
+  box-shadow: none;
+}
+
+.width {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-top: 0.7rem;
+}/*# sourceMappingURL=Button.module.css.map */

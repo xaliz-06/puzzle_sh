@@ -1,0 +1,25 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: secret_font;
+  src: url(./assets/fonts/LondonTube-MABx.ttf);
+}
+
+body {
+  font-family: secret_font, sans-serif;
+  color: #fff;
+  background: linear-gradient(
+    110.6deg,
+    rgb(156, 116, 129) -18.3%,
+    rgb(67, 54, 74) 16.4%,
+    rgb(47, 48, 67) 68.2%,
+    rgb(27, 23, 36) 99.1%
+  );
+  background-repeat: no-repeat;
+}

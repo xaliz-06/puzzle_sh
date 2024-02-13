@@ -1,0 +1,12 @@
+@import '../../styles/variables';
+
+.horizontal_rule_container {
+  margin: $space-5-half auto;
+  width: 80%;
+
+  .horizontal_rule {
+    height: 5px;
+    border-radius: 5px;
+    background-color: $color-white;
+  }
+}

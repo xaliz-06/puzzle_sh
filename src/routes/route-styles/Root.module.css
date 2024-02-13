@@ -1,0 +1,9 @@
+.root_container {
+  min-height: 100vh;
+  text-align: center;
+  font-family: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=Root.module.css.map */

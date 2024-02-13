@@ -1,0 +1,55 @@
+@import '../../styles/variables';
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: $height-2;
+  background-color: rgba($color-deep-blue, 0.2);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  z-index: 10;
+
+  .nav_links_container {
+    padding: $space-4;
+    .nav_links_list {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 3rem;
+      .nav_link_item {
+        list-style: none;
+        padding: 0 $space-4;
+        .nav_link {
+          text-decoration: none;
+          color: $color-white;
+          font-family: inherit;
+          font-size: $hero-desc-size;
+          display: inline-block;
+          position: relative;
+
+          &:after {
+            background: none repeat scroll 0 0 transparent;
+            bottom: 0;
+            content: '';
+            display: block;
+            height: 2px;
+            left: 50%;
+            position: absolute;
+            background-color: $color-white;
+            transition: width 0.3s ease 0s, left 0.3s ease 0s;
+            width: 0;
+          }
+          &:hover:after {
+            width: 100%;
+            left: 0;
+          }
+        }
+        .active {
+          color: $color-sky-blue;
+        }
+      }
+    }
+  }
+}

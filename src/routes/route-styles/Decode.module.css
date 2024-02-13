@@ -1,0 +1,122 @@
+.decode_page {
+  margin-top: 3rem;
+  padding-top: 1.3rem;
+}
+.decode_page .decode_container {
+  width: 90%;
+  margin: 3rem auto;
+}
+.decode_page .decode_container .clue_details {
+  text-align: left;
+  margin-top: 2.4rem;
+  padding: 3rem 2.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.decode_page .decode_container .clue_details h3 {
+  font-size: 2.4rem;
+}
+.decode_page .decode_container .clue_details h5 {
+  font-size: 1.4rem;
+}
+.decode_page .decode_container .clue_details p {
+  margin-top: 1.3rem;
+  color: #86a7fc;
+  font-size: 1.8rem;
+}
+
+form .form_section {
+  padding: 3rem 2.4rem;
+  text-align: left;
+}
+form .form_section label {
+  font-size: 1.8rem;
+}
+form .form_section label input[type=text] {
+  display: block;
+  margin: 0.3rem 0;
+  width: 100%;
+  padding: 0.7rem;
+  border: 2px solid #86a7fc;
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: 1.4rem;
+}
+form .form_section label input[type=text]:focus {
+  outline: none;
+  border: 2px solid #86a7fc;
+  box-shadow: 0 0 15px rgba(252, 103, 54, 0.9);
+}
+form button {
+  margin: 0.7rem 1rem;
+  font-family: inherit;
+  font-size: 1.8rem;
+  color: #fff;
+  background-color: #474f7a;
+  padding: 0.7rem 2.4rem;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease-in;
+  box-shadow: 0 5px #1f2544;
+}
+form button:hover {
+  cursor: pointer;
+  background-color: #030637;
+}
+form button:active {
+  background-color: #030637;
+  transform: translateY(5px);
+  box-shadow: none;
+}
+
+.link {
+  font-family: inherit;
+  padding: 1rem 1.3rem;
+  font-size: 1.8rem;
+  color: #fff;
+  transition: background-color 0.3s ease-in;
+  text-decoration: none;
+}
+.link:hover {
+  text-decoration: underline;
+}
+
+.gallery_container .img_list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+}
+.gallery_container .img_list .img_list_item {
+  list-style: none;
+  transition: transform 0.9s ease;
+}
+.gallery_container .img_list .img_list_item .gallery_img {
+  width: 250px;
+  height: 300px;
+}
+.gallery_container .img_list .img_list_item:hover {
+  transform: scale(1.1);
+}
+
+.hint_box {
+  text-align: left;
+}
+
+.special {
+  color: #86a7fc;
+}
+
+.next_section {
+  width: 80%;
+  margin: 2.4rem auto;
+  padding-top: 3rem;
+  text-align: left;
+}
+.next_section .next_container {
+  padding: 1rem;
+}
+.next_section .next_container h4 {
+  font-size: 1.4rem;
+}/*# sourceMappingURL=Decode.module.css.map */

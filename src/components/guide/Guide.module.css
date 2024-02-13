@@ -1,0 +1,20 @@
+.guide_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 88%;
+  margin: 1.8rem auto;
+  gap: 1.3rem;
+}
+.guide_container .guide_box {
+  margin: 0 3rem;
+  text-align: left;
+  transition: transform 0.9s ease;
+}
+.guide_container .guide_box:hover {
+  transform: scale(1.1);
+}
+.guide_container .guide_box h3 {
+  padding: 0.3rem 0 1rem;
+  font-size: 1.4rem;
+}/*# sourceMappingURL=Guide.module.css.map */

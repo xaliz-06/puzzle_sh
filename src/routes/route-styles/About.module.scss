@@ -1,0 +1,29 @@
+@import '../../styles/variables';
+
+.about_page {
+  margin-top: $space-6;
+  padding-top: $space-4;
+
+  .about_container {
+    width: 100%;
+    margin: $space-6 auto;
+
+    .member_lists {
+      h2 {
+        font-size: $font-size-4;
+      }
+
+      .members_container {
+        .members_list {
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr 1fr;
+          gap: $space-4;
+
+          li {
+            list-style: none;
+          }
+        }
+      }
+    }
+  }
+}

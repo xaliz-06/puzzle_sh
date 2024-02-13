@@ -1,0 +1,12 @@
+.hint_container {
+  padding: 1rem;
+  color: #fc6736;
+}
+.hint_container i:hover {
+  cursor: pointer;
+}
+
+.hint_message {
+  padding: 0 1rem;
+  color: #fc6736;
+}/*# sourceMappingURL=Hint.module.css.map */

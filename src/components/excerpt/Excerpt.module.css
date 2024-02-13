@@ -1,0 +1,26 @@
+.excerpt_container {
+  width: 80%;
+  margin: 3rem auto;
+  text-align: left;
+  font-size: 0.8rem;
+}
+.excerpt_container h1 {
+  font-size: 1.4rem;
+  text-decoration: underline;
+  padding-bottom: 1rem;
+}
+.excerpt_container h1 .special {
+  color: #86a7fc;
+}
+.excerpt_container .excerpt_text .special_link {
+  text-decoration: none;
+  color: inherit;
+  font-family: inherit;
+}
+
+.special_text {
+  color: inherit;
+}
+.special_text:hover {
+  color: #86a7fc;
+}/*# sourceMappingURL=Excerpt.module.css.map */

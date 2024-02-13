@@ -1,0 +1,31 @@
+@import '../../styles/variables';
+
+.btn {
+  width: 100%;
+  padding: $btn-padding-tb $btn-padding-lr;
+  font: inherit;
+  background-color: $color-light-blue;
+  color: $color-white;
+  font-size: $hero-desc-size;
+  outline: none;
+  border: none;
+  border-radius: $border-radius-1;
+  transition: $transition-1;
+  box-shadow: 0 5px $color-dark-blue;
+
+  &:hover {
+    cursor: pointer;
+    background-color: $color-deep-blue;
+  }
+
+  &:active {
+    background-color: $color-deep-blue;
+    transform: $btn-pressed-effect;
+    box-shadow: none;
+  }
+}
+
+.width {
+  width: fit-content;
+  margin-top: $space-2;
+}

@@ -1,0 +1,15 @@
+@import '../../../styles/variables';
+
+@mixin flex-properties($direction, $justify, $align) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
+}
+
+.root_container {
+  min-height: 100vh;
+  text-align: center;
+  font-family: inherit;
+  @include flex-properties(column, center, center);
+}

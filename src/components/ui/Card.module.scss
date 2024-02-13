@@ -1,0 +1,9 @@
+@import '../../styles/variables';
+
+.card {
+  background-color: rgba($color-deep-blue, 0.2);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  padding: $space-5-half;
+  border-radius: $border-radius-4;
+}

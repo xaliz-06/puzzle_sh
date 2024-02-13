@@ -1,0 +1,9 @@
+.horizontal_rule_container {
+  margin: 2.4rem auto;
+  width: 80%;
+}
+.horizontal_rule_container .horizontal_rule {
+  height: 5px;
+  border-radius: 5px;
+  background-color: #fff;
+}/*# sourceMappingURL=Hr.module.css.map */

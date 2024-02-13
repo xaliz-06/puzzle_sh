@@ -1,0 +1,19 @@
+.about_page {
+  margin-top: 3rem;
+  padding-top: 1.3rem;
+}
+.about_page .about_container {
+  width: 100%;
+  margin: 3rem auto;
+}
+.about_page .about_container .member_lists h2 {
+  font-size: 2.4rem;
+}
+.about_page .about_container .member_lists .members_container .members_list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1.3rem;
+}
+.about_page .about_container .member_lists .members_container .members_list li {
+  list-style: none;
+}/*# sourceMappingURL=About.module.css.map */
