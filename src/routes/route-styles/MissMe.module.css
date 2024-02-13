@@ -74,4 +74,30 @@
   100% {
     transform: scale(1);
   }
+}
+@media screen and (max-width: 428px) {
+  .miss_me_page .miss_me_container {
+    width: 80%;
+    margin: 0.3rem auto;
+    display: none;
+  }
+  .miss_me_page .miss_me_container.show {
+    display: block;
+    animation: popUp 1s forwards;
+  }
+  .miss_me_page .miss_me_container .miss_me_details {
+    padding: 0;
+    gap: 0.5rem;
+  }
+  .miss_me_page .miss_me_container .miss_me_details h2 {
+    font-size: 1.4rem;
+  }
+  .miss_me_page .miss_me_container .miss_me_details h4 {
+    font-size: 1rem;
+  }
+  .miss_me_page .miss_me_container .miss_me_details img {
+    width: 150px;
+    height: 200px;
+    margin: 0 auto;
+  }
 }/*# sourceMappingURL=MissMe.module.css.map */

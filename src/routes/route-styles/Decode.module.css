@@ -176,7 +176,7 @@ form button:active {
   }
   .gallery_container .img_list {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 1rem;
   }
   .gallery_container .img_list .img_list_item {
@@ -184,8 +184,8 @@ form button:active {
     transition: transform 0.9s ease;
   }
   .gallery_container .img_list .img_list_item .gallery_img {
-    width: 150px;
-    height: 200px;
+    width: 200px;
+    height: 250px;
   }
   .gallery_container .img_list .img_list_item:hover {
     transform: scale(1.1);

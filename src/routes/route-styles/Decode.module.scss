@@ -207,15 +207,15 @@ form {
   .gallery_container {
     .img_list {
       display: grid;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr;
       gap: $space-3;
 
       .img_list_item {
         list-style: none;
         transition: $transition-transform;
         .gallery_img {
-          width: 150px;
-          height: 200px;
+          width: 200px;
+          height: 250px;
         }
 
         &:hover {

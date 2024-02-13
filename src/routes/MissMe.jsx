@@ -27,7 +27,7 @@ const MissMe = () => {
               <span className={styles.special}>You are missing something!</span>
             </h2>
             <h4>
-              You are haven&apos;t solved{' '}
+              You haven&apos;t solved{' '}
               <span className={styles.special}>The Final Problem</span> yet!
             </h4>
             <img src={moriarty_gif} alt="moriarty" />

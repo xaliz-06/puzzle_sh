@@ -115,4 +115,71 @@ form button:active {
 .go_to:hover .link {
   cursor: pointer;
   text-decoration: underline;
+}
+
+@media screen and (max-width: 428px) {
+  .final_page {
+    margin-top: 7;
+  }
+  .final_page .final_container {
+    width: 90%;
+    margin: 1.3rem auto;
+  }
+  .final_page .final_container .clue_details {
+    margin-top: 1.3rem;
+    padding: 1.3rem 1rem;
+  }
+  .final_page .final_container .clue_details h3 {
+    font-size: 1.8rem;
+  }
+  .final_page .final_container .clue_details h5 {
+    font-size: 1rem;
+  }
+  .final_page .final_container .clue_details p {
+    margin-top: 1rem;
+    color: #86a7fc;
+    font-size: 1.4rem;
+  }
+  form .form_section {
+    padding: 1.8rem 1.3rem;
+  }
+  form .form_section label {
+    font-size: 1.8rem;
+  }
+  form .form_section label input[type=text] {
+    margin: 0.3rem 0;
+    width: 100%;
+    padding: 0.3rem;
+    border: 2px solid #86a7fc;
+    font-size: 1.4rem;
+  }
+  form .form_section label input[type=text]:focus {
+    outline: none;
+    border: 2px solid #86a7fc;
+    box-shadow: 0 0 15px rgba(252, 103, 54, 0.9);
+  }
+  form button {
+    margin: 0.7rem 1rem;
+    font-family: inherit;
+    font-size: 1.8rem;
+    color: #fff;
+    background-color: #474f7a;
+    padding: 0.7rem 2.4rem;
+  }
+  .check_container {
+    padding: 0.7rem 1rem;
+    margin: 0.3rem auto;
+  }
+  .check_container .check_box {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+  .go_to {
+    margin: 1.3rem auto 0.7rem;
+    padding: 0.3rem;
+  }
+  .go_to .link {
+    padding: 0.7rem 0.7rem;
+    font-size: 1rem;
+  }
 }/*# sourceMappingURL=FinalProblem.module.css.map */
