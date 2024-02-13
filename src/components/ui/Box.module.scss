@@ -65,3 +65,27 @@
     }
   }
 }
+
+@media screen and (max-width: 428px) {
+  .box_container {
+    padding: $space-1;
+
+    .img_container {
+      position: relative;
+      .profile_img {
+        padding: $space-1 0;
+        width: 180px;
+        aspect-ratio: 3/4;
+        border-radius: $border-radius-2;
+        transition: $transition-transform;
+      }
+
+      .member_details {
+        padding: $space-1 0;
+        h3 {
+          font-size: $font-size-1;
+        }
+      }
+    }
+  }
+}

@@ -57,4 +57,26 @@
 .box_container:hover .img_container .icons_container {
   bottom: 10px;
   opacity: 1;
+}
+
+@media screen and (max-width: 428px) {
+  .box_container {
+    padding: 0.3rem;
+  }
+  .box_container .img_container {
+    position: relative;
+  }
+  .box_container .img_container .profile_img {
+    padding: 0.3rem 0;
+    width: 180px;
+    aspect-ratio: 3/4;
+    border-radius: 8px;
+    transition: transform 0.9s ease;
+  }
+  .box_container .img_container .member_details {
+    padding: 0.3rem 0;
+  }
+  .box_container .img_container .member_details h3 {
+    font-size: 1rem;
+  }
 }/*# sourceMappingURL=Box.module.css.map */

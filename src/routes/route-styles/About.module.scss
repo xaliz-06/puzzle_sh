@@ -27,3 +27,31 @@
     }
   }
 }
+
+@media screen and (max-width: 428px) {
+  .about_page {
+    margin-top: 7rem;
+
+    .about_container {
+      margin: $space-4 auto;
+
+      .member_lists {
+        h2 {
+          font-size: $font-size-3;
+        }
+
+        .members_container {
+          .members_list {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: $space-2;
+
+            li {
+              list-style: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}

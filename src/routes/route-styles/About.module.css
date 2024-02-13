@@ -16,4 +16,24 @@
 }
 .about_page .about_container .member_lists .members_container .members_list li {
   list-style: none;
+}
+
+@media screen and (max-width: 428px) {
+  .about_page {
+    margin-top: 7rem;
+  }
+  .about_page .about_container {
+    margin: 1.3rem auto;
+  }
+  .about_page .about_container .member_lists h2 {
+    font-size: 1.8rem;
+  }
+  .about_page .about_container .member_lists .members_container .members_list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.7rem;
+  }
+  .about_page .about_container .member_lists .members_container .members_list li {
+    list-style: none;
+  }
 }/*# sourceMappingURL=About.module.css.map */

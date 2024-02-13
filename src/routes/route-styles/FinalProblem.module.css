@@ -119,7 +119,7 @@ form button:active {
 
 @media screen and (max-width: 428px) {
   .final_page {
-    margin-top: 7;
+    margin-top: 7rem;
   }
   .final_page .final_container {
     width: 90%;

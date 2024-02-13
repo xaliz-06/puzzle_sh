@@ -25,4 +25,10 @@
   width: -moz-fit-content;
   width: fit-content;
   margin-top: 0.7rem;
+}
+
+@media screen and (max-width: 428px) {
+  .btn {
+    font-size: 1rem;
+  }
 }/*# sourceMappingURL=Button.module.css.map */

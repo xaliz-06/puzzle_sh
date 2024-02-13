@@ -38,3 +38,30 @@
     }
   }
 }
+
+@media screen and (max-width: 428px) {
+  .not_found_page {
+    .not_found_container {
+      width: 90%;
+      margin: $space-2 auto;
+      padding: $space-2;
+
+      .not_found_details {
+        padding: $space-1 $space-2;
+
+        h2 {
+          font-size: $font-size-2;
+        }
+
+        .watson_img {
+          width: 250px;
+          margin: $space-1 auto;
+        }
+
+        .btn_container {
+          gap: $space-2;
+        }
+      }
+    }
+  }
+}

@@ -29,3 +29,9 @@
   width: fit-content;
   margin-top: $space-2;
 }
+
+@media screen and (max-width: 428px) {
+  .btn {
+    font-size: $font-size-1;
+  }
+}
