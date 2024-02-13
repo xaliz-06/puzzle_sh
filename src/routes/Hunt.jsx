@@ -21,7 +21,7 @@ const Hunt = () => {
     if (enterredValue === 'conan') {
       url = 'about';
     } else {
-      url = 'https://www.dcode.fr/dancing-men-cipher';
+      url = '/check';
     }
   };
 

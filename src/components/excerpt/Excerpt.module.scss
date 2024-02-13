@@ -32,3 +32,17 @@
     color: $color-sky-blue;
   }
 }
+
+@media screen and (max-width: 428px) {
+  .excerpt_container {
+    width: 80%;
+    margin: $space-4 auto;
+    text-align: left;
+    font-size: 0.8rem;
+
+    h1 {
+      font-size: $font-size-2;
+      padding-bottom: $space-2;
+    }
+  }
+}

@@ -30,4 +30,36 @@
 }
 .quote_container .credit_box {
   margin-top: 1.3rem;
+}
+@media screen and (max-width: 428px) {
+  .quote_container {
+    margin: 1rem auto;
+    max-width: 100vw;
+    gap: 1rem;
+  }
+  .quote_container .quote_box .quote_text {
+    font-size: 1.4rem;
+    position: relative;
+  }
+  .quote_container .quote_box .quote_text:before, .quote_container .quote_box .quote_text:after {
+    position: absolute;
+    color: #d8d9cf;
+    font-size: 2.4rem;
+    width: 2rem;
+    height: 2rem;
+  }
+  .quote_container .quote_box .quote_text:before {
+    content: "“";
+    top: -0.5rem;
+    left: 2rem;
+  }
+  .quote_container .quote_box .quote_text:after {
+    content: "”";
+    bottom: -0.5rem;
+    right: 2rem;
+  }
+  .quote_container .credit_box {
+    margin: 1rem auto 0;
+    width: 80%;
+  }
 }/*# sourceMappingURL=QuoteCard.module.css.map */

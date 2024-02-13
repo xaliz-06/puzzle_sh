@@ -41,7 +41,7 @@ const Decode = () => {
     if (enterredValue === 'sidney') {
       url = '/final-problem';
     } else {
-      url = 'https://www.dcode.fr/dancing-men-cipher';
+      url = '/check';
     }
   };
 

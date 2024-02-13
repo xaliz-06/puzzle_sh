@@ -17,4 +17,23 @@
 .guide_container .guide_box h3 {
   padding: 0.3rem 0 1rem;
   font-size: 1.4rem;
+}
+
+@media screen and (max-width: 428px) {
+  .guide_container {
+    flex-direction: column;
+    margin: 1rem auto;
+    gap: 0.7rem;
+  }
+  .guide_container .guide_box {
+    margin: 0 0.7rem;
+  }
+  .guide_container .guide_box h3 {
+    padding: 0.3rem 0 1rem;
+    font-size: 1.4rem;
+  }
+  .guide_container h3 {
+    padding: 0.3rem 0 1rem;
+    font-size: 1rem;
+  }
 }/*# sourceMappingURL=Guide.module.css.map */

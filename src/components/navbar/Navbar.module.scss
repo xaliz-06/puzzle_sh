@@ -10,6 +10,9 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
   backdrop-filter: blur(10px);
   z-index: 10;
+  .nav_links_container_mobile {
+    display: none;
+  }
 
   .nav_links_container {
     padding: $space-4;
@@ -49,6 +52,37 @@
         .active {
           color: $color-sky-blue;
         }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 428px) {
+  .navbar {
+    width: 100vw;
+    height: fit-content;
+    .nav_links_container_mobile {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: $space-6;
+      font-size: $font-size-3;
+      i {
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+
+    .nav_links_container {
+      .nav_links_list {
+        display: none;
+      }
+
+      .nav_links_list.active {
+        display: flex;
+        flex-direction: column;
+        gap: $space-2;
       }
     }
   }

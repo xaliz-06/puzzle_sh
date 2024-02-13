@@ -1,0 +1,20 @@
+@import './variables';
+
+.loading_root {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  padding: $space-6;
+
+  .landing_container {
+    width: 50%;
+    margin: $space-3 auto;
+    background-color: rgba($color-deep-blue, 0.2);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    padding: $space-4;
+  }
+}

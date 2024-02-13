@@ -28,7 +28,7 @@ const FinalProblem = () => {
       url = '/decipher';
     } else {
       setIsCorrect(false);
-      url = 'https://www.dcode.fr/dancing-men-cipher';
+      url = '/check';
     }
   };
 

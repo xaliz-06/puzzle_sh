@@ -1,0 +1,18 @@
+.loading_root {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  padding: 3rem;
+}
+.loading_root .landing_container {
+  width: 50%;
+  margin: 1rem auto;
+  background-color: rgba(3, 6, 55, 0.2);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  padding: 1.3rem;
+}/*# sourceMappingURL=ImagePreloader.module.css.map */

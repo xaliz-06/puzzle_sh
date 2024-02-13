@@ -23,4 +23,17 @@
 }
 .special_text:hover {
   color: #86a7fc;
+}
+
+@media screen and (max-width: 428px) {
+  .excerpt_container {
+    width: 80%;
+    margin: 1.3rem auto;
+    text-align: left;
+    font-size: 0.8rem;
+  }
+  .excerpt_container h1 {
+    font-size: 1.4rem;
+    padding-bottom: 0.7rem;
+  }
 }/*# sourceMappingURL=Excerpt.module.css.map */

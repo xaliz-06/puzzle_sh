@@ -10,6 +10,9 @@
           backdrop-filter: blur(10px);
   z-index: 10;
 }
+.navbar .nav_links_container_mobile {
+  display: none;
+}
 .navbar .nav_links_container {
   padding: 1.3rem;
 }
@@ -49,4 +52,30 @@
 }
 .navbar .nav_links_container .nav_links_list .nav_link_item .active {
   color: #86a7fc;
+}
+
+@media screen and (max-width: 428px) {
+  .navbar {
+    width: 100vw;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .navbar .nav_links_container_mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    font-size: 1.8rem;
+  }
+  .navbar .nav_links_container_mobile i:hover {
+    cursor: pointer;
+  }
+  .navbar .nav_links_container .nav_links_list {
+    display: none;
+  }
+  .navbar .nav_links_container .nav_links_list.active {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+  }
 }/*# sourceMappingURL=Navbar.module.css.map */

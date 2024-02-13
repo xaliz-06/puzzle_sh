@@ -23,3 +23,25 @@
     }
   }
 }
+
+@media screen and (max-width: 428px) {
+  .guide_container {
+    flex-direction: column;
+    margin: $space-3 auto;
+    gap: $space-2;
+
+    .guide_box {
+      margin: 0 $space-2;
+
+      h3 {
+        padding: $space-1 0 $space-3;
+        font-size: $font-size-2;
+      }
+    }
+
+    h3 {
+      padding: $space-1 0 $space-3;
+      font-size: $font-size-1;
+    }
+  }
+}
