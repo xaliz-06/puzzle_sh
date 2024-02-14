@@ -39,7 +39,7 @@ const Decode = () => {
   const handleGo = () => {
     let enterredValue = inputValue.toLowerCase();
     if (enterredValue === 'sidney') {
-      url = '/final-problem';
+      url = 'https://replit.com/@VaashkarPaul/TechRoyale?v=1';
     } else {
       url = '/check';
     }
